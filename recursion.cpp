@@ -1,16 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int sum = 0;
-int goal(){
+
+int target(int num){
     
     if(sum == 4) return 0;
     else 
-        cout << sum << " ";
-    sum++;
+        cout << num << " ";
+        num++;
 
 }
 
 int main(){
-    goal();
+    target(0);
 }
