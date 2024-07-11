@@ -8,8 +8,9 @@ int main(){
     cin >> n;
 
     if(n<18 && n>0){
-        if(n>=18 && n>=14);
-        cout << "You're teen";
+        if(n>=18 && n>=14){
+            cout << "You're teen";
+        }
     cout << "You're young";
     }
     else{
