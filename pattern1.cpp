@@ -110,8 +110,9 @@ int main(){
     //     // pattern4(n);
     //     // pattern5(n);
     //     // pattern6(n);
-    //     pattern7(n);
+    //     // pattern7(n);
     // }
+    
     int n;
     cin >> n;
     pattern4(n);
