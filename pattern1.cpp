@@ -91,6 +91,7 @@ void pattern7(int n){
     }
 
 }
+lasda
 
 
 int main(){
