@@ -75,10 +75,10 @@ void pattern6(int n){
     }
 }
 void pattern7(int n){
-    //     *    
-    //    ***
-    //   *****
-    //  *******
+    //     *       
+    //    ***   
+    //   *****  
+    //  ******* 
     // *********
     for(int i=0; i<n; i++){
         //space
@@ -98,7 +98,12 @@ void pattern7(int n){
 
 }
 void pattern8(int n){
-    
+    *********
+     ******* 
+      *****  
+       ***   
+        *    
+    for(int i=0)
 }
 int main(){
     // int t;
