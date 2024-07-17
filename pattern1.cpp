@@ -116,6 +116,10 @@ void pattern8(int n){
         cout << endl;
     }
 }
+void pattern9(int n){
+    
+}
+
 int main(){
     // int t;
     // cin >> t;
