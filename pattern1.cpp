@@ -118,6 +118,10 @@ void pattern8(int n){
 }
 void pattern9(int n){
     
+    for(int i=0; i<n; i++){
+        
+    }
+
 }
 
 int main(){
