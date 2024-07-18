@@ -211,7 +211,6 @@ int main(){
     //     // pattern7(n);
     // }
     /
-    /
 
     int n;
     cin >> n;
