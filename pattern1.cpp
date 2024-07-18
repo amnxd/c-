@@ -210,8 +210,6 @@ int main(){
     //     // pattern6(n);
     //     // pattern7(n);
     // }
-    /
-
     int n;
     cin >> n;
     pattern11(n);
