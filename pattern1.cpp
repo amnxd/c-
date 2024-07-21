@@ -215,3 +215,4 @@ int main(){
     pattern11(n);
 }
 
+.
