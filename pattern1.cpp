@@ -214,5 +214,5 @@ int main(){
     cin >> n;
     pattern11(n);
 }
-
+.
 .
