@@ -7,7 +7,7 @@ int goal(){
     else 
         cout << sum << " ";
     sum++;
-    goal();
+    
 }
 
 int main(){
