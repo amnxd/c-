@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int sum = 0;
 int goal(){
     
@@ -12,5 +13,4 @@ int goal(){
 
 int main(){
     goal();
-    
 }
