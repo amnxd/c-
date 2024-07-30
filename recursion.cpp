@@ -12,5 +12,5 @@ int goal(){
 
 int main(){
     goal();
-    ..
+    
 }
