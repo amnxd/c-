@@ -4,10 +4,12 @@ using namespace std;
 
 int target(int num){
     
-    if(sum == 4) return 0;
-    else 
+    if(num == 4) return 0;
+    else{
         cout << num << " ";
         num++;
+    }
+    num++;
 
 }
 
