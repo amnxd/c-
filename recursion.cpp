@@ -9,10 +9,11 @@ int target(int num){
         cout << num << " ";
         num++;
     }
-    num++;
+    target();
 
 }
 
 int main(){
+    cin >> 
     target(0);
 }
