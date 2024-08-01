@@ -4,11 +4,8 @@ using namespace std;
 
 int target(int num){
     
-    if(num == 4) return 0;
-    else{
-        cout << num << " ";
-        num++;
-    }
+    if(num == 4) return;
+    cout
     target();
 
 }
