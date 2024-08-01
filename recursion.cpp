@@ -1,16 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-int target(int num){
-    
+int num = 0;
+void target(){
     if(num == 4) return;
-    cout
+    cout << num << endl;
+    num++;
     target();
-
 }
 
 int main(){
-    cin >> 
-    target(0);
+    target();
 }
