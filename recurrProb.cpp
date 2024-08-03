@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//print a name "n" times using recursion..
+//q1 print a name "n" times using recursion..
 
 // void fnn(int i,int n){
 //     if(i>n) return;
@@ -15,16 +15,34 @@ using namespace std;
 //     fnn(1,n);
 // }
 
-//print numbers upto "n" {input number} using recursion..
+//q2 print numbers upto "n" {input number} in ascending order {1-n} using recursion..
 
-void fnn(int i,int n){
-    if(i>n) return;
-    cout << i << endl;
-    fnn(i+1, n);
+// void fnn(int i,int n){
+//     if(i>n) return;
+//     cout << i << endl;
+//     fnn(i+1, n);
+// }
+
+// int main(){
+//     int n;
+//     cin >> n;
+//     fnn(1,n);
+// }
+
+//q3 print numbers upto "n" {input number} in descending order {n-1} using recursion..
+
+void fnn(int n){
+    if(n==0) return;
+    cout << n << endl;
+    fnn(n-1);
 }
-
+void fnn1(int i,int n){
+    if(i<1) return;
+    cout << i << endl;
+    fnn1(i-1,n);
+}
 int main(){
     int n;
     cin >> n;
-    fnn(1,n);
+    fnn1(n,n);
 }
