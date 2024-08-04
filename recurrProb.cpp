@@ -50,13 +50,13 @@ int main(){
 
 // q3 print numbers upto "n" {input number} in ascending order {1-n} with backtracking..
 
-void fn(int i,int n){
-    if(i>n) return;
-    fn(i-1,n);
-    cout << i << endl;
-}
-int main(){
-    int n;
-    cin >> n;
-    fn(n,n);
-}
+// void fn(int i,int n){
+//     if(i>n) return;
+//     fn(i-1,n);
+//     cout << i << endl;
+// }
+// int main(){
+//     int n;
+//     cin >> n;
+//     fn(n,n);
+// }
