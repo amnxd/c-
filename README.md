@@ -1,6 +1,4 @@
-# cpp
-for Data Structures and Algo
-pattern Problems
-arrays
-functions
-recursionnn
+# C++
+<br>
+A repository where I keep my DS algo notes and codes.
+</br>
