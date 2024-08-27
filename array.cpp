@@ -10,6 +10,4 @@ int main(){
     arr[1] = 87;
     cout << arr[1];
     return 0;
-
-
 }
